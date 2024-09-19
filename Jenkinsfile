@@ -24,6 +24,7 @@ pipeline {
         }
     }
 
+    // Fungsi mengirim notifikasi ke bot telegram 
     post {
         success {
             script{
