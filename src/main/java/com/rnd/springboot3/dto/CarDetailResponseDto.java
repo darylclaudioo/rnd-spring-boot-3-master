@@ -1,22 +1,22 @@
-package com.rnd.springboot3.dto;
+// package com.rnd.springboot3.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+// import com.fasterxml.jackson.annotation.JsonInclude;
+// import lombok.AllArgsConstructor;
+// import lombok.Builder;
+// import lombok.Data;
+// import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-@JsonInclude(JsonInclude.Include.NON_NULL)
-public class CarDetailResponseDto {
+// @Data
+// @NoArgsConstructor
+// @AllArgsConstructor
+// @Builder
+// @JsonInclude(JsonInclude.Include.NON_NULL)
+// public class CarDetailResponseDto {
 
-    private Long id;
-    private String manufactur;
-    private String model;
-    private String type;
-    private String createdDate;
+//     private Long id;
+//     private String manufactur;
+//     private String model;
+//     private String type;
+//     private String createdDate;
 
-}
+// }
